@@ -1,0 +1,20 @@
+student s1 "Анна Иванова"
+student s2 "Иван Петров"
+criterion practice "Практика" 20 0.4
+criterion exam "Экзамен" 10 0.6
+students
+criteria
+grade s1 practice 15
+grade s1 exam 8
+grade s2 practice 10
+grade s2 exam 7
+grade s2 exam 9
+grades s2
+cancel s2 exam
+total s2 all
+total s2 graded
+grade s2 exam 7
+total s1
+report
+export results.csv
+quit
